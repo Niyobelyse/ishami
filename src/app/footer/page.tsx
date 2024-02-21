@@ -37,7 +37,7 @@ const Footer = () => {
               </div>
               <div>
                   <h2 className="font-rakkas text-2xl leading-tight tracking-normal text-left text-white mb-3">Contact Us</h2>
-                  <ul className="font-dm-sans text-base font-normal leading-6 tracking-normal text-left text-white">
+                  <ul className="font-dm-sans text-lg  font-normal leading-6 tracking-normal text-left text-white">
                   <li className="mb-4">
                           <a href="#" className="hover:underline">support@ishami.com</a>
                       </li>
