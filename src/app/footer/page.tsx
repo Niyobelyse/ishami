@@ -8,13 +8,13 @@ const Footer = () => {
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
 
-          <div className="grid grid-cols-2 px-14  gap-28 sm:gap-40 sm:grid-cols-4">
+          <div className="grid grid-cols-2 px-14  gap-28 sm:gap-36 sm:grid-cols-4">
               <div className="font-rakkas text-5xl leading-tight tracking-normal text-left">
 <span className="text-yellow-500">iS</span><span className="text-white">hami</span>
               </div>
               <div>
                   <h2 className="font-rakkas text-2xl leading-tight tracking-normal text-left text-white mb-3">More Link</h2>
-                  <ul className="font-dm-sans text-base font-normal  leading-6  text-left text-white">
+                  <ul className="font-dm-sans text-sm font-normal  leading-6  text-left text-white">
                   <li className="mb-4">
                           <a href="#" className="hover:underline">About us</a>
                       </li>
@@ -28,7 +28,7 @@ const Footer = () => {
               </div>
               <div>
                   <h2 className="font-rakkas text-2xl leading-tight tracking-normal text-left text-white mb-3">Address</h2>
-                  <ul className="font-dm-sans text-base font-normal leading-6 text-left text-white">
+                  <ul className="font-dm-sans text-sm font-normal leading-6 text-left text-white">
                       <li className="mb-4">
                           <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Rwanda, Kigali kk st 434</a>
                       </li>
@@ -37,7 +37,7 @@ const Footer = () => {
               </div>
               <div>
                   <h2 className="font-rakkas text-2xl leading-tight tracking-normal text-left text-white mb-3">Contact Us</h2>
-                  <ul className="font-dm-sans text-lg  font-normal leading-6 tracking-normal text-left text-white">
+                  <ul className="font-dm-sans text-sm font-normal leading-6 tracking-normal text-left text-white">
                   <li className="mb-4">
                           <a href="#" className="hover:underline">support@ishami.com</a>
                       </li>

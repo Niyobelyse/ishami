@@ -24,7 +24,9 @@ const page = () => {
         <div className="bg-cover bg-[url(/boy.png)] object-cover brightness-50 ...">
           <div className=" text-center">
             <div className=" p-56">
-              <h1 className=" font-dm-sans text-white text-2xl brightness-100 ... font-bold">About Us</h1>
+              <h1 className=" font-dm-sans text-white text-2xl brightness-100 ... font-bold">
+                About Us
+              </h1>
               <img src="../Frame2.png" className="ml-16" />
             </div>
           </div>
@@ -76,6 +78,44 @@ const page = () => {
         </div>
       </div>
       <PortifolioCards />
+      <div className=" grid grid-cols-2 bg-[url(/bgimage.png)]" id="bodyimage">
+        <div className="font-dm-sans font-normal leading-6 tracking-normal text-left text-white">
+          <h1 className="text-2xl py-4 font-bold px-14">
+            Have questions? We've got <br />
+            answers
+          </h1>
+          <p className="text-sm px-14">
+            where we showcase our past projects and successes.
+            <br /> Take a look at our work to get a better understanding <br />
+            of the quality and variety of services we offer
+          </p>
+        </div>
+        <div className="font-dm-sans text-sm font-normal leading-6 tracking-normal text-left text-white">
+          <div>
+            <span>How does your agriculture investment platform work?</span>
+            <span></span>
+          </div>
+          <div>
+            <span>
+              What types of projects are available for investment in the
+              agriculture sector?
+            </span>
+            <span></span>
+          </div>
+          <div>
+            <span>
+              Is my personal and financial information secure on your platform?
+            </span>
+            <span></span>
+          </div>
+          <div>
+            <span>
+              How do I get started with investing in your IT investment fund?
+            </span>
+            <span></span>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
