@@ -2,6 +2,7 @@ const ProjectCard = () => {
   return (
     <div className="grid grid-cols-3 px-14 py-24 gap-12">
       <div className=" mt-8">
+      <div className="text-xl py-4 text-black font-bold font-dm-sans">Your project's path to success</div>
         <div className=" inline-flex">
           <div>
             <img src="../oval1.png" />
